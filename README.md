@@ -1,40 +1,53 @@
-# VDPs #Googledorks
-Google Dorks for Bug Bounty & Responsible Disclosure
-This folder contains a curated list of Google dorks designed to help bug bounty hunters and security researchers discover valuable pages such as bug bounty programs, security.txt files, responsible disclosure policies, reward offers, and related resources across the web.
+# VDPs #GoogledorksVDPs
+– Google Dorks for Bug Bounty & Responsible Disclosure
+License Contributions welcome Security
 
-📚 What’s Included?
+🚀 Overview
+This repository provides a curated collection of Google dorks to help bug bounty hunters and security researchers discover valuable assets like bug bounty programs, security.txt files, responsible disclosure pages, and more.
 
-Dorks to find bug bounty and responsible disclosure pages.
-Queries for reward and swag mentions.
-Filters for security.txt and vulnerability disclosure policies.
-Country and university-specific bounty/disclosure programs.
-Dorks for platforms like Bugcrowd, HackerOne, Synack, etc.
-Variants for monetary rewards in different currencies (USD, EUR, INR, etc.).
-Queries targeting .gov, .edu, and various country domains.
-Combinations for special mentions (hall of fame, white hat, etc.).
-
-🛠️ How to Use
-
+📦 What’s Inside?
+🔍 Dorks for finding bug bounty and responsible disclosure pages
+💰 Queries for reward and swag mentions
+🧾 Filters for security.txt and vulnerability disclosure policies
+🌍 Country and university-specific bounty/disclosure programs
+🛡️ Dorks for platforms (Bugcrowd, HackerOne, Synack, etc.)
+💵 Variants for rewards in different currencies (USD, EUR, INR, etc.)
+🏛️ Queries targeting .gov, .edu, and country domains
+🏆 Special mentions (hall of fame, white hat, etc.)
+🛠️ Getting Started
 Copy any query from the list.
-Paste into your Google search bar.
+Paste it into your Google search bar.
 Modify as needed (e.g., add a target keyword or domain).
-Review search results for leads on bounty programs, policies, or contact pages.
-Note: Always use these dorks ethically and only for reconnaissance on assets you are permitted to test!
+Review the results for leads on bounty programs, policies, or contact pages.
+⚠️ Always use these dorks ethically and only for reconnaissance on assets you are permitted to test!
 
-🗂️ Sample Categories
-
-Bug Bounty Programs:
-inurl:bug bounty, inurl:security "reward", "we offer a bounty"
-Responsible Disclosure:
-inurl:responsible disclosure, responsible disclosure swag r=h:uk
-Security.txt & Vulnerability Disclosure:
-inurl:security.txt, inurl:/.well-known/security ext:txt
-Platform-specific:
-"powered by bugcrowd" -site:bugcrowd.com, "powered by synack"
-Rewards & Swag:
-inurl:responsible disclosure $50, inurl:bug bounty intext:"₹"
-Country/Region/University:
-site:*.eu responsible disclosure, site:*.edu intext:security report vulnerability
+🗂️ Sample Categories & Example Dorks
+<details> <summary><strong>Bug Bounty Programs</strong></summary>
+inurl:"bug bounty"
+inurl:security "reward"
+"we offer a bounty"
+</details> <details> <summary><strong>Responsible Disclosure</strong></summary>
+inurl:"responsible disclosure"
+responsible disclosure swag r=h:uk
+</details> <details> <summary><strong>Security.txt & Vulnerability Disclosure</strong></summary>
+inurl:security.txt
+inurl:/.well-known/security ext:txt
+</details> <details> <summary><strong>Platform-Specific</strong></summary>
+"powered by bugcrowd" -site:bugcrowd.com
+"powered by synack"
+</details> <details> <summary><strong>Rewards & Swag</strong></summary>
+inurl:"responsible disclosure" $50
+inurl:"bug bounty" intext:"₹"
+</details> <details> <summary><strong>Country/Region/University</strong></summary>
+site:*.eu "responsible disclosure"
+site:*.edu intext:"security report vulnerability"
+</details>
+🤝 Contributing
+Found a useful dork? Submit a pull request!
+Keep your contributions organized and add a short comment if possible.
+See CONTRIBUTING.md for more details (if available).
+⚠️ Disclaimer
+This resource is for educational and authorized security research only.<br> Do not use these queries for illegal or unauthorized activities.
 
 🤝 Contributions
 
